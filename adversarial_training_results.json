@@ -1,0 +1,53 @@
+{
+  "clean": {
+    "adv_10_clean_90": 99.12,
+    "adv_30_clean_70": 99.14,
+    "adv_50_clean_50": 99.21,
+    "adv_70_clean_30": 99.02,
+    "adv_90_clean_10": 98.98
+  },
+  "fresh_adversarial": {
+    "fgsm": {
+      "adv_10_clean_90": 98.0,
+      "adv_30_clean_70": 98.2,
+      "adv_50_clean_50": 98.1,
+      "adv_70_clean_30": 98.8,
+      "adv_90_clean_10": 98.3
+    },
+    "pgd": {
+      "adv_10_clean_90": 98.2,
+      "adv_30_clean_70": 98.2,
+      "adv_50_clean_50": 98.2,
+      "adv_70_clean_30": 98.6,
+      "adv_90_clean_10": 98.5
+    },
+    "cw": {
+      "adv_10_clean_90": 98.3,
+      "adv_30_clean_70": 98.5,
+      "adv_50_clean_50": 98.7,
+      "adv_70_clean_30": 99.2,
+      "adv_90_clean_10": 98.8
+    },
+    "deepfool": {
+      "adv_10_clean_90": 98.1,
+      "adv_30_clean_70": 98.9,
+      "adv_50_clean_50": 99.1,
+      "adv_70_clean_30": 98.7,
+      "adv_90_clean_10": 98.7
+    }
+  },
+  "original_adversarial": {
+    "adv_10_clean_90": 98.1,
+    "adv_30_clean_70": 98.4,
+    "adv_50_clean_50": 98.7,
+    "adv_70_clean_30": 98.0,
+    "adv_90_clean_10": 98.1
+  },
+  "baseline_original_model": {
+    "clean_accuracy": 99.16,
+    "fgsm_accuracy": 96.4,
+    "pgd_accuracy": 95.6,
+    "cw_accuracy": 17.2,
+    "deepfool_accuracy": 0.0
+  }
+}

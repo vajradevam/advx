@@ -1,0 +1,52 @@
+{
+  "adv_10_clean_90": {
+    "total_samples": 60000,
+    "clean_ratio": 0.9,
+    "attack_types_used": [
+      "fgsm",
+      "pgd",
+      "cw",
+      "deepfool"
+    ]
+  },
+  "adv_30_clean_70": {
+    "total_samples": 60000,
+    "clean_ratio": 0.7,
+    "attack_types_used": [
+      "fgsm",
+      "pgd",
+      "cw",
+      "deepfool"
+    ]
+  },
+  "adv_50_clean_50": {
+    "total_samples": 60000,
+    "clean_ratio": 0.5,
+    "attack_types_used": [
+      "fgsm",
+      "pgd",
+      "cw",
+      "deepfool"
+    ]
+  },
+  "adv_70_clean_30": {
+    "total_samples": 60000,
+    "clean_ratio": 0.3,
+    "attack_types_used": [
+      "fgsm",
+      "pgd",
+      "cw",
+      "deepfool"
+    ]
+  },
+  "adv_90_clean_10": {
+    "total_samples": 60000,
+    "clean_ratio": 0.1,
+    "attack_types_used": [
+      "fgsm",
+      "pgd",
+      "cw",
+      "deepfool"
+    ]
+  }
+}
